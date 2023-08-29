@@ -1,0 +1,313 @@
+.navbar
+{
+    background-color: black;
+}
+
+.navbar h1,
+.navbar-brand:hover
+{
+    color: white;
+    font-family: 'Diplomata', cursive;
+    font-size: 35px;
+}
+
+.navbar .nav-link.active
+{
+    background-color: white;
+    color: black;
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 14px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.navbar .nav-link
+{
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    padding: 5px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-family: 'Petit Formal Script', cursive;
+}
+
+.navbar .nav-link:active
+{
+    background-color: #949494;
+    color: #ffffff;
+}
+
+.navbar-toggler
+{
+    background-color: #949494;
+}
+
+.carousel img
+{
+    height: 700px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.full-width-carousel 
+{
+    width: 100vw;
+}
+
+.carousel-content-center 
+{
+    text-align: center;
+}
+
+#coffeeshop
+{
+    padding: 120px;
+    background-color: hwb(0 82% 18%);
+}
+
+#coffeeshop h2
+{
+    font-family: 'Diplomata', cursive;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+#coffeeshop p
+{
+    margin-left: 30px;
+    text-align: justify;
+}
+
+#workspace
+{
+    padding: 120px;
+    background-color: #ffffff;
+}
+
+#workspace .container
+{
+    text-align: justify;
+}
+
+#workspace .container h2
+{
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: 'Diplomata', cursive;
+}
+
+#workspace .container h3
+{
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+#workspace .container p
+{
+    text-align: left;
+    margin-right: 30px;
+}
+
+#cardapiocoffeeshop
+{
+    padding: 120px;
+    background-color: hwb(0 82% 18%);
+}
+
+#cardapiocoffeeshop h2
+{
+    font-family: 'Diplomata', cursive;
+}
+
+#cardapiocoffeeshop .nav button
+{
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-family: 'Petit Formal Script', cursive;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#cardapiocoffeeshop .nav button:active
+{
+    background-color: #949494;
+    color: #ffffff;
+}
+
+#cardapiocoffeeshop .container img
+{
+    width: 230px;
+    height: 200px;
+}
+
+#cardapiocoffeeshop .container #agualist img
+{
+    height: 350px;
+}
+
+#cardapiocoffeeshop .nav button
+{
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#contato
+{
+    padding: 120px;
+    background-color: #ffffff;
+}
+
+#contato h2
+{
+    font-family: 'Diplomata', cursive;
+}
+
+.redessociais li
+{
+    list-style: none;
+    display: inline;
+}
+
+.redessociais a
+{
+    text-decoration: none;
+}
+
+.iconeinsta
+{
+    color: #f766ba;
+}
+
+.iconewhatsapp
+{
+    color: #0cdf0c;
+}
+
+@media (max-width: 767px)
+{
+    .navbar h1,
+    .navbar-brand:hover
+    {
+    font-size: 22px;
+    }
+    .container h1
+    {
+        font-size: 22px;
+    }
+    .container h1:hover
+    {
+        text-transform: none;
+    }
+    .container button
+    {
+        font-size: 8px;
+    }
+    .container button:hover
+    {
+        background-color: hsl(0, 1%, 83%);
+        cursor: pointer;
+    }
+    .carousel-item img
+    {
+        height: auto;
+    }
+    h2
+    {
+        font-size: 20px;
+    }
+    h3
+    {
+        font-size: 14px;
+    }
+    h4
+    {
+        font-size: 16px;
+    }
+    p
+    {
+        font-size: 12px;
+    }
+    #cardapiocoffeeshop .nav button
+    {
+    font-size: 12px;
+    margin-top: 5px;
+    }
+    #coffeeshop,
+    #workspace,
+    #cardapiocoffeeshop,
+    #contato
+    {
+    padding: 60px;
+    padding-top: 120px;
+    }
+    #contato .container button
+    {
+        font-size: 12px;
+    }
+    #contato .container button:hover
+    {
+        background-color: #949494;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .carousel-item img
+    {
+        height: auto;
+    }
+    .container button
+    {
+        font-size: 12px;
+    }
+    .container button:hover
+    {
+        background-color: hsl(0, 1%, 83%);
+        cursor: pointer;
+    }
+    h2
+    {
+        font-size: 24px;
+    }
+    h3
+    {
+        font-size: 16px;
+    }
+    h4
+    {
+        font-size: 14;
+    }
+    p
+    {
+        font-size: 12px;
+    }
+    #cardapiocoffeeshop .container img
+    {
+        height: 160px;
+    }
+    #cardapiocoffeeshop .container #agualist img
+    {
+        height: 300px;
+        width: 150px;
+    }
+    #coffeeshop,
+    #workspace,
+    #cardapiocoffeeshop,
+    #contato
+    {
+        padding-top: 200px;
+    }
+    #contato .container button
+    {
+        font-size: 12px;
+    }
+    #contato .container button:hover
+    {
+        background-color: #949494;
+    }
+}
