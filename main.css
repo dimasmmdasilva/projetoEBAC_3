@@ -134,6 +134,10 @@
     margin-top: 5px;
 }
 
+#cardapiocoffeeshop p {
+    width: 80%;
+}
+
 #cardapiocoffeeshop .nav button:active
 {
     background-color: #949494;
